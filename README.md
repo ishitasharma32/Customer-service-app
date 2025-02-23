@@ -34,27 +34,7 @@ An intelligent customer service platform that automates query handling, ticket m
 - Zero-shot Classification
 
 ## 📁 Project Structure
-flowchart TD
-    subgraph Frontend
-        A[React App] --> B[Components]
-        B --> B1[Dashboard]
-        B --> B2[TicketForm]
-        B --> B3[ChatInterface]
-        A --> C[Redux Store]
-        A --> D[API Services]
-    end
-    
-    subgraph Backend
-        E[FastAPI Server] --> F[Routes]
-        E --> G[ML Models]
-        E --> H[Services]
-        H --> H1[JIRA Service]
-        H --> H2[Chat Service]
-        H --> H3[Ticket Service]
-        E --> I[Database]
-    end
-    
-    D <-->|REST API| E
+
 
 ```
 ├── frontend/
